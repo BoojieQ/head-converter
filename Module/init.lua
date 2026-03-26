@@ -1,9 +1,8 @@
 --!strict
 local InsertService = game:GetService("InsertService")
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Promise = require(ReplicatedStorage.Packages.Promise)
+local Promise = require(script.Parent.Promise)
 local Content = require(script.Content)
 local Types = require(script.Types)
 
@@ -12,7 +11,7 @@ type FaceInfo = Types.FaceInfo
 
 type HeadType = "Dynamic" | "Classic"
 type HeadMeshType = "MeshPart" | "Mesh"
-
+ 
 type HeadInstanceInfo = {
     Mesh: SpecialMesh,
     MeshPart: MeshPart,

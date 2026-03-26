@@ -3,9 +3,15 @@ name = "boojieq/head-converter"
 description = "Library for converting between classic and dynamic heads on avatars"
 version = "1.0.0"
 realm = "shared"
-registry = "https://github.com/BoojieQ/head-converter"
+registry = "https://github.com/UpliftGames/wally-index"
 license = "MIT"
+include = [
+    "default.project.json",
+    "src",
+    "wally.toml",
+    "README.md",
+    "LICENSE"
+]
 
 [dependencies]
-_promise = "evaera/promise@4.0.0"
 Promise = "maximumadhd/promise-typed@1.0.0"
