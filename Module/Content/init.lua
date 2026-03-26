@@ -57,8 +57,6 @@ for _, faceInfo in Faces do
     end
 end
 
-print(content.DynamicHeads)
-
 for _, headInfo in Heads do
     content.Heads[headInfo.Id] = headInfo
 end
