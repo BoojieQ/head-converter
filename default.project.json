@@ -1,20 +1,6 @@
 {
 	"name": "HeadConverter",
 	"tree": {
-		"$className": "DataModel",
-		"ReplicatedStorage": {
-			"Packages": {
-				"$className": "Folder",
-				"HeadConverter": {
-					"$path": "Module"
-				},
-				"Promise": {
-					"$path": "Packages/Promise.lua"
-				},
-				"_Index": {
-					"$path": "Packages/_Index"
-				}
-			}
-		}
+		"$path": "Module"
 	}
 }
