@@ -1,7 +1,7 @@
 [package]
 name = "boojieq/head-converter"
 description = "Library for converting between classic and dynamic heads on avatars"
-version = "1.0.1"
+version = "1.0.2"
 realm = "shared"
 registry = "https://github.com/UpliftGames/wally-index"
 license = "MIT"
